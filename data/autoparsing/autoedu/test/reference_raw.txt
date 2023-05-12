@@ -1,0 +1,5 @@
+{"text": [["Friday , October 27 , 1989"]], "edu_positions": [[]]}
+{"text": [["The key U.S. and foreign annual interest rates below are a guide to general levels", "but do n't always represent actual transactions ."]], "edu_positions": [[15]]}
+{"text": [["PRIME RATE :", "10 1/2 % ."]], "edu_positions": [[3]]}
+{"text": [["The base rate on corporate loans at large U.S. money center commercial banks ."]], "edu_positions": [[]]}
+{"text": [["FEDERAL FUNDS :", "8 3/4 % high , 8 11/16 % low , 8 5/8 % near closing bid , 8 11/16 % offered ."]], "edu_positions": [[3]]}

@@ -1,0 +1,5 @@
+{"text": [["Nothing was going to hold up the long-delayed settlement of Britton vs. Thomasini ."]], "edu_positions": [[]]}
+{"text": [["Not even an earthquake ."]], "edu_positions": [[]]}
+{"text": [["On the afternoon of Oct. 17 ,", "after hours of haggling with five insurance-claims adjusters", "over settling a toxic-waste suit ,", "four lawyers had an agreement in hand ."]], "edu_positions": [[7, 15, 21]]}
+{"text": [["But", "as Judge Thomas M. Jenkins donned his robes", "so he could give final approval ,", "the major earthquake struck , its epicenter not far from his courtroom in Redwood City , Calif ."]], "edu_positions": [[1, 9, 16]]}
+{"text": [["The walls shook ;", "the building rocked ."]], "edu_positions": [[4]]}

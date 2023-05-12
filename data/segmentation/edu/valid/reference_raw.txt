@@ -1,0 +1,5 @@
+{"text": [["In an age of specialization , the federal judiciary is one of the last bastions of the generalist ."]], "edu_positions": [[]]}
+{"text": [["A judge must jump from murder to antitrust cases , from arson to securities fraud ,", "without missing a beat ."]], "edu_positions": [[16]]}
+{"text": [["But even on the federal bench , specialization is creeping in ,", "and it has become a subject of sharp controversy on the newest federal appeals court ."]], "edu_positions": [[12]]}
+{"text": [["The Court of Appeals for the Federal Circuit was created in 1982", "to serve , among other things , as the court of last resort for most patent disputes ."]], "edu_positions": [[12]]}
+{"text": [["Previously , patent cases moved through the court system to one of the 12 circuit appeals courts ."]], "edu_positions": [[]]}
