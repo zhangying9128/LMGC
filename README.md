@@ -49,7 +49,7 @@ Please save our trained models to the corresponding folders in [checkpoints](htt
 
 ### Data Preprocessing
 Please download [RST Discourse Treebank](https://catalog.ldc.upenn.edu/LDC2002T07) dataset and prepare candidate files by yourself. 
-To utilize our code, you need to use our corresponding data format listed in [data](https://github.com/zhangying9128/LMGC/tree/main/data) folder. If you would to reproduce our results, please prove that you have the License for downloading RST Discourse Treebank, so that we could provide our pre-processed data with candidate sentences to you.
+To utilize our code, you need to use our corresponding data format listed in [data](https://github.com/zhangying9128/LMGC/tree/main/data) folder. If you would like to reproduce our results, please prove that you have the License for downloading RST Discourse Treebank, so that we could provide our pre-processed data with candidate sentences to you.
 And then use our following script to binary data. Please edit `MAIN_TASK` and `SUBTASK` based on your setting.
 ```sh
 bash commands/preprocess.sh
