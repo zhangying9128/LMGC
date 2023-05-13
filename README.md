@@ -3,7 +3,8 @@ This repository contains the source code for our paper [A Language Model-based G
 
 ## Getting Started
 ### Requirements
-
+* [PyTorch](http://pytorch.org/) version == 1.7.0
+* Python version >= 3.6
 
 ### Clone this repository 
 ```sh
@@ -27,25 +28,11 @@ tar -xf mpnet.base.tar.gz
 
 ### Our trained models
 As we mentioned in our paper, we run 5 trials with random seeds. You can use the following LMGC models to reproduce our results.
-Please save our trained models to the corresponding folders in [checkpoints](https://github.com/zhangying9128/LMGC/tree/main/checkpoints).
-| Model |Trial| Link|
-|---|---|---|
-| Enhance_e| 1 | [download (.pt)]() | 
-| Enhance_e| 2 | [download (.pt)]() | 
-| Enhance_e| 3 | [download (.pt)]() | 
-| Enhance_e| 4 | [download (.pt)]() | 
-| Enhance_e| 5 | [download (.pt)]() | 
-| Extend_e| 1 | [download (.pt)]() | 
-| Extend_e| 2 | [download (.pt)]() | 
-| Extend_e| 3 | [download (.pt)]() | 
-| Extend_e| 4 | [download (.pt)]() | 
-| Extend_e| 5 | [download (.pt)]() | 
-|---|---|---|
-| Enhance_r| 1 | [download (.pt)]() | 
-| Enhance_r| 2 | [download (.pt)]() | 
-| Enhance_r| 3 | [download (.pt)]() | 
-| Enhance_r| 4 | [download (.pt)]() | 
-| Enhance_r| 5 | [download (.pt)]() | 
+Please download our trained models to the corresponding folders in [checkpoints](https://github.com/zhangying9128/LMGC/tree/main/checkpoints).
+| Model |Trial 1| Trial 2|Trial 3|Trial 4|Trial 5|
+|---|---|---|---|---|---|
+| Enhance_e| [1](https://drive.google.com/file/d/17ZC_Sv1NNKJpr6ocHUSmEALFwxcIvv2L/view?usp=share_link)| [2](https://drive.google.com/file/d/1uR4mA7P9_SEaQD5Cd4IXKSJzeXND5eoB/view?usp=share_link) | [3](https://drive.google.com/file/d/1Rvs_Z2BdsvddyOuXEIxD_Kg7B6RJxG7e/view?usp=share_link) | [4](https://drive.google.com/file/d/1VHJ3yDZo8uiTCK5SU3NoUsgaXD3ielIP/view?usp=share_link) | [5](https://drive.google.com/file/d/1tjbBZcqsFm1R5Qpf8x6hUjZ-CvXs8N69/view?usp=share_link) | 
+| Enhance_r| [1](https://drive.google.com/file/d/1lyixH0hhUxwI7S31VNhJLqWdpC_u9D25/view?usp=share_link)| [2](https://drive.google.com/file/d/143HaipOk6ea7utBMmEA-a1WmSJQ19QFt/view?usp=share_link) | [3](https://drive.google.com/file/d/1sHLUl6yMdUFcBtk4HrMIyNfmV2JBxm36/view?usp=share_link) | [4](https://drive.google.com/file/d/1VrpRSBxwfFnBLtpOhJ01z8GHsRrpStyM/view?usp=share_link) | [5](https://drive.google.com/file/d/1Q1quzoCMnCbXLnchhrf0PTEkFI3VaHqA/view?usp=share_link) | 
 
 ### Data Preprocessing
 Please download [RST Discourse Treebank](https://catalog.ldc.upenn.edu/LDC2002T07) dataset and prepare candidate files by yourself. 
@@ -56,7 +43,7 @@ bash commands/preprocess.sh
 ```
 
 ### Training
-You can train LMGC with the following scripts on a GPU.
+You can train LMGC with the following scripts on a GPU. Please edit `MAIN_TASK` and `SUBTASK` based on your setting.
 ```sh
 bash commands/train.sh
 ```
