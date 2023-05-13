@@ -27,7 +27,7 @@ tar -xf mpnet.base.tar.gz
 
 ### Our trained models
 As we mentioned in our paper, we run 5 trials with random seeds. You can use the following LMGC models to reproduce our results.
-Please save our trained models to the corresponding folders in `checkpoints`.
+Please save our trained models to the corresponding folders in [checkpoints](https://github.com/zhangying9128/LMGC/tree/main/checkpoints).
 | Model |Trial| Link|
 |---|---|---|
 | Enhance_e| 1 | [download (.pt)]() | 
@@ -49,7 +49,7 @@ Please save our trained models to the corresponding folders in `checkpoints`.
 
 ### Data Preprocessing
 Please download [RST Discourse Treebank](https://catalog.ldc.upenn.edu/LDC2002T07) dataset and prepare candidate files by yourself. 
-To utilize our code, you need to use our corresponding data format listed in `data` folder. If you would to reproduce our results, please prove that you have the License for downloading RST Discourse Treebank, so that we could provide our pre-processed data with candidate sentences to you.
+To utilize our code, you need to use our corresponding data format listed in [data](https://github.com/zhangying9128/LMGC/tree/main/data) folder. If you would to reproduce our results, please prove that you have the License for downloading RST Discourse Treebank, so that we could provide our pre-processed data with candidate sentences to you.
 And then use our following script to binary data. Please edit `MAIN_TASK` and `SUBTASK` based on your setting.
 ```sh
 bash commands/preprocess.sh
